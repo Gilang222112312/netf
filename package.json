@@ -23,3 +23,18 @@
   "license": "ISC",
   "description": ""
 }
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "My website using server.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
